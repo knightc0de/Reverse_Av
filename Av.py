@@ -5,3 +5,6 @@ entry = project.factory.entry_state()
 manager = project.factory.simg(entry)
 this_addr = input("Enter ur ADDR to find :")
 avoid_addr = input("Enter avoid Addr :") 
+manager.explore(find=this_addr,avoid= avoid_addr)
+
+if 
