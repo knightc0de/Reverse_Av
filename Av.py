@@ -7,4 +7,7 @@ this_addr = input("Enter ur ADDR to find :")
 avoid_addr = input("Enter avoid Addr :") 
 manager.explore(find=this_addr,avoid= avoid_addr)
 
-if 
+if manager.found:
+   print(manager.found[0].posix.dump(0))
+else:
+   print("Not found!")
