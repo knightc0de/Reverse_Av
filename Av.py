@@ -8,6 +8,6 @@ avoid_addr = input("Enter avoid Addr :")
 manager.explore(find=this_addr,avoid= avoid_addr)
 
 if manager.found:
-   print(manager.found[0].posix.dump(0))
+   print(manager.found[0].posix.dump(0)) # std input
 else:
    print("Not found!")
